@@ -1,0 +1,182 @@
+*
+{
+    padding:0px;
+    margin:0px;
+}    
+    
+    #container
+    {
+        width:96%;
+        margin:auto;
+    }
+    
+    
+    #header
+        {
+            background-color:rgb(19, 2, 248);
+            height:100px;
+        }
+
+
+
+/*   ********  MENU BLOCK STYLES   ***********   */
+
+        #menu
+        {
+            background-color:#17e0ee;
+            height:60px;
+            width:100%;
+        }
+
+        #menu>ul  /* parent>child selector  */
+        {
+            list-style-type:none;
+        }
+
+
+        #menu>ul>li    /*  #menu li  */
+        {
+            display:inline;
+            float:left;
+            width:12.5%;  /* main logic */
+            text-align:center;
+            line-height:60px;
+        }
+
+
+        #menu>ul>li:hover
+        {
+            background-color:#f7e707;
+        }
+        
+
+        #menu a
+        {
+            text-decoration:none;
+            color:#8f177b;
+            font-size:17px;
+            letter-spacing:1px;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+/*   ********  MENU BLOCK STYLES   ***********   */
+
+
+
+        #banner
+        {
+            height:250px;
+            background-color:rgb(25, 202, 149);
+        }
+
+
+
+
+/*  *************************MAIN_BLOCK_STYLES   *********************  */
+
+
+
+
+/*  *****indexPage Main Section Styles*****   */
+
+
+        #indexPage_main   /* parent */
+        {
+            background-color:#e5e5e5;
+            height:400px;
+        }
+
+        #indexPage_main .main_columns /* child */
+        {
+            width:25%;
+            height:100%;  /*follows parent-height*/
+            float:left;
+        }
+
+   /*  *****indexPage Main Section Styles*****   */
+
+
+
+/*  *****AboutPage Main Section Styles*****   */
+        #aboutPage_main
+        {   
+            background-color:#585454;
+            height:400px;
+        }
+
+        #aboutPage_main .main_columns
+        {
+            width:50%;
+            height:100%;  /*follows parent-height*/
+            float:left;
+        }
+
+/*  *****AboutPage Main Section Styles*****   */
+
+
+
+
+
+/*  *****ServicesPage Main Section Styles*****   */
+
+    #servicesPage_main
+        {   
+            background-color:#255025;
+            height:600px;
+        }
+
+        #servicesPage_main .main_columns
+        {
+            width:33.3%;
+            height:100%;  /*follows parent-height*/
+            float:left;
+        }
+
+/*  *****ServicesPage Main Section Styles*****   */
+
+
+/*  *****ContactPage Main Section Styles*****   */
+
+
+#contactPage_main
+{   
+    background-color:#2e2f69;
+    height:400px;
+}
+
+#contactPage_main .forms_columns
+{
+    width:70%;
+    height:100%;
+    background-color:#164d34;
+    float:left;
+}
+
+#contactPage_main .address_columns
+{
+    width:30%;
+    height:100%;
+    background-color:#ec1375;
+    float:right;
+}
+
+/*  *****ContactPage Main Section Styles*****   */
+
+
+
+
+
+/*  *************************MAIN_BLOCK_STYLES   *********************  */
+
+
+
+
+
+
+
+
+        #footer
+        {
+            background-color:lightgreen;
+            height:50px;
+        }

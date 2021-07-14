@@ -1,0 +1,146 @@
+#container-fluid
+{
+    width:100%;
+}
+
+
+header /* single selector */
+{
+    height:120px;
+    background-color:rgb(255, 7, 48);
+}
+
+
+nav
+{
+    height:60px;
+    background-color:rgb(226, 93, 4);
+}
+
+
+#sliders
+{
+    height:350px;
+    background-color:rgb(17, 245, 17);
+}
+
+
+
+/*      *************MAIN SECTION BLOCKS STYLES ***********   */
+
+main
+{
+    height:auto; /* you take how much you need for child sections of this parent */
+}
+
+/* section-1 Styles */
+
+main .section1
+{
+background-color:#2a473a;
+height:350px;
+width:96%;
+margin:auto;
+}
+
+main .section1 .s1_columns
+{
+width:50%;
+height:100%;
+float:left;
+
+}
+
+/* section-1 Styles */
+
+
+/*   section2_styles */
+
+main .section2
+{
+background-color:rgb(88, 88, 99);
+height:300px;
+}
+
+main .section2 .s2_columns
+{
+    width:33.3%;
+    height:100%;
+    float:left;
+}
+/*   section2_styles */
+
+
+
+main .section3
+{
+background-color:rgb(78, 11, 75);
+height:350px;
+}
+
+
+main .section3 .articles
+{
+width:25%;
+float:left;
+height:100%;
+}
+
+
+
+main .section4
+{
+background-color:olive;
+height:450px;
+}
+
+main .section4 .s4_article
+{
+width:70%;
+height:100%;
+float:left;
+}
+
+
+main .section4 .s4_sidebar
+{
+    width:30%;
+    height:100%;
+    float:right;
+}
+
+
+
+footer
+{
+    height:120px;
+    background-color:rgb(172, 241, 10);
+}
+
+
+
+
+/* Colors */
+.color1
+{
+    background-color:#3f14ce;
+}
+
+.color2
+{
+    background-color:#363b1a;
+}
+
+
+.color3
+{
+    background-color:#c9257f;
+}
+
+
+.color4
+{
+    background-color:rgb(82, 59, 126);
+}
+
+/* Colors */

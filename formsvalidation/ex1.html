@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="bootstrap.css"/>
+        <script src="../formsvalidation/java.js/bootstrap.js"></script>
+        <script src="java.js/bootstrap.bundle.js"></script>   
+    <script src="ex1.js"></script>
+    
+</head>
+<body>
+    <div class="container p-5 w-50">
+        <form action="welcome.py" onsubmit="return form_validations()" >
+            <div class="mb-3">
+                <label class="form-label">Name:</label>
+                <input type="Name" class="form-control" id="Name"  />
+                <span id="Name1"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Email:</label>
+                <input type="Email" class="form-control" id="Mail"/>
+                <span id="mail1"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Phone:</label> 
+                <input type="Phone" class="form-control" id="Number" />
+                <span id="number1"></span>
+            </div>
+
+
+            <div class="mb-3">
+                <label class="form-label">Password:</label>
+                <input type="password" class="form-control" id="Pwd"   />
+                <span id="pwd1"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Confirm Password:</label>
+                <input type="password" class="form-control" id="Cpwd"  />
+                <span id="cpwd1"></span>
+            </div>
+
+            <div class="mb-3">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+
+
+        </form>
+
+    </div>
+</body>
+</html> 

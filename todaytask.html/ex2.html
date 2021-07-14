@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password</title>
+    
+    <link rel="stylesheet" href="boot.css">
+	<script>
+		function myfun() 
+{
+	var input1 = document.getElementById('uname')
+	
+	var meter1 = document.getElementById('meterElement')
+	meter1.value = input1.value.length
+	
+}
+	</script>
+</head>
+<style>
+    body {
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(187, 181, 186);
+    }
+
+    .meter {
+        width: 600px;
+        height: 450px;
+        background-color:  rgb(247, 85, 160);
+
+    }
+
+    #uname {
+        padding: 10px;
+        width: 300px;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    #meterElement {
+        margin: auto;
+        display: block;
+        width: 400px;
+        height: 50px;
+    }
+	#label{
+		color: whitesmoke;
+		text-align: center;
+	}
+</style>
+
+<body>
+
+    <div class="meter">
+        <h3 class="text-center" style="color:white">Password strength Checker</h3>
+		<label style="color: whitesmoke;text-align:center;"for="lname">Password:</label><br>
+        <input type="password" maxlength="20" id="uname" onkeyup="myfun()"> <br>
+		<label style="color: whitesmoke;text-align: center;" for="lname">confirm Password:</label><br>
+		<input type="Conformpassword" maxlength="20" id="uname" onkeyup="myfun()">
+        <meter id="meterElement" min="0" max="15" value="" low="6" high="13" optimum="20"></meter>
+    </div>
+</body>
+
+</html>

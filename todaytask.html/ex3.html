@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Password Strength Checker</title>
+	<link href="css/password_strength.css" rel="stylesheet" type="text/css" />
+	<script type="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="ex3.js"></script>
+</head>
+<body>
+<div  id="form_wrapper">
+<h1 align="center">Password Strength Checker</h1>
+	<div><span>New Password</span></div>
+		<div>
+			<input class="pass-word-field" type="password" id="pass-word" />
+			<input class="pass-word-field" style="display:none;" id="pass-word-two" type="text" />
+		</div>
+			<div><span>Verify New Password</span></div>
+		<div>
+			<input class="verify-password-field" type="password" id="verify-pass-word" />
+			<input class="verify-password-field" style="display:none;" id="verify-pass-word-two" type="text" />
+		</div>
+			<div style="float:right;"><span>Show Password:</span><input type="checkbox" id="show-hide-passwords"></div><br clear="all">
+		<div id="pass-status"></div>
+	<div class="system_buttons" onClick="submit_data();">Submit</div>
+</div>
+</body>
+</html>

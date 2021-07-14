@@ -1,0 +1,136 @@
+
+    *
+{
+    padding:0px;
+    margin:0px;
+}    
+    
+    #container
+    {
+        width:96%;
+        margin:auto;
+    }
+    
+    
+    #header
+        {
+            background-color:rgb(247, 243, 6);
+            height:100px;
+        }
+
+
+
+/*   ********  MENU BLOCK STYLES   ***********   */
+
+        #menu
+        {
+            background-color:#152a4a;
+            height:60px;
+            width:100%;
+        }
+
+        #menu>ul  /* parent>child selector  */
+        {
+            list-style-type:none;
+        }
+
+
+        #menu>ul>li    /*  #menu li  */
+        {
+            display:inline;
+            float:left;
+            width:12.5%;  /* main logic */
+            text-align:center;
+            line-height:60px;
+        }
+
+
+        #menu>ul>li:hover
+        {
+            background-color:#d31111;
+        }
+        
+
+        #menu a
+        {
+            text-decoration:none;
+            color:#b6b9b5;
+            font-size:17px;
+            letter-spacing:1px;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+/*   ********  MENU BLOCK STYLES   ***********   */
+
+
+
+        #banner
+        {
+            height:250px;
+            background-color:rgb(17, 226, 17);
+        }
+
+
+
+
+/*  *************************MAIN_BLOCK_STYLES   *********************  */
+
+
+/*  *****Index Main Section Styles*****   */
+#IndexPage_main
+{   
+    background-color:#571111;
+    height:400px;
+}
+
+#Indexpage_main .main_columns
+{
+    width:50%;
+    height:100%;  /*follows parent-height*/
+    float:left;
+}
+
+/*  *****Index Main Section Styles*****   */
+
+
+
+
+
+
+/*  *****AboutPage Main Section Styles*****   */
+        #aboutPage_main
+        {   
+            background-color:#571111;
+            height:400px;
+        }
+
+        #aboutPage_main .main_columns
+        {
+            width:50%;
+            height:100%;  /*follows parent-height*/
+            float:left;
+        }
+
+/*  *****AboutPage Main Section Styles*****   */
+
+
+
+
+
+
+
+
+/*  *************************MAIN_BLOCK_STYLES   *********************  */
+
+
+
+
+
+
+
+
+        #footer
+        {
+            background-color:rgb(75, 105, 133);
+            height:50px;
+        }

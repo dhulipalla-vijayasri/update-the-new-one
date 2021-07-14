@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Elearning Site</title>
+
+<script>
+function switchfunction() {
+
+var seltheme = document.getElementById("selecttheme").value;
+switch(seltheme ){
+    case "demotbl":
+    document.getElementById("switchtable").className = "demotbl";
+    break;
+    
+    case "demotbl2":
+    document.getElementById("switchtable").className = "demotbl2";
+    break;
+
+    case "demotbl3":
+    document.getElementById("switchtable").className = "demotbl3";
+    break;    
+    
+    
+    default:
+    document.getElementById("switchtable").className = "demotbl";
+    break;              
+}
+
+}
+</script>
+
+<style>
+/*Table theme 1*/
+.demotbl2 {
+    border: 0px solid #69899F;
+  }
+.demotbl2 th{
+    padding:15px;
+    color:#fff;
+    text-shadow:1px 1px 1px #568F23;
+    border-bottom:3px solid #9ED929;
+    background-color:#9DD929;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.02, rgb(123,192,67)),
+        color-stop(0.51, rgb(139,198,66)),
+        color-stop(0.87, rgb(158,217,41))
+        );
+    background: -moz-linear-gradient(
+        center bottom,
+        rgb(123,192,67) 3%,
+        rgb(139,198,66) 52%,
+        rgb(158,217,41) 88%
+        );
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius:5px 5px 0px 0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+  }
+.demotbl td{
+    width:100px;
+    padding:10px;
+    text-align:center;
+    vertical-align: top;
+    background-color:#849c6c;
+    border: 1px solid #7d9667;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    color:rgb(250, 249, 249);
+    text-shadow:1px 1px 1px #fff;
+
+  }  
+  
+/* Class two*/
+.demotbl {
+    border: 0px solid #b9e00b;
+  }
+.demotbl th{
+    padding:15px;
+    color:#fff;
+    text-shadow:1px 1px 1px #f8e006;
+    border-bottom:3px solid #e6a10e;
+    background-color:#ced118;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.02, rgb(4, 215, 252)),
+        color-stop(0.51, rgb(27, 180, 167)),
+        color-stop(0.87, rgb(158,217,41))
+        );
+    background: -moz-linear-gradient(
+        center bottom,
+        rgb(12, 141, 150) 3%,
+        rgb(31, 228, 211) 52%,
+        rgb(15, 194, 170) 88%
+        );
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius:5px 5px 0px 0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+  }
+.demotbl2 td{
+    width:100px;
+    padding:10px;
+    text-align:center;
+    vertical-align: top;
+    background-color:#DEF3CA;
+    border: 1px solid #BED3AB;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+
+  }  
+
+.demotbl3 {
+    border-collapse: collapse;
+    border: 1px solid #A40000;
+  }
+.demotbl3 th{
+    border: 1px solid #A40000;
+    color: #fff;
+    padding:10px;
+    background-color:#FF2F2F;
+  }
+.demotbl3 td{
+    border: 1px dotted black;
+    color: #002F5E;
+    padding:15px;
+    width:100px;
+    background-color:#FFE1E1;
+  }
+
+.switchdiv {
+  background: #73d3f8;
+  height: 100px;
+  width:250px;
+  border-radius: 15px;
+  padding:20px;
+  font-size:22px;
+  color:rgb(255, 255, 255);
+}
+</style>
+</head>
+<body>
+
+<div class="switchdiv" id="tst">
+<label >Select Table Theme: </label><select id="selecttheme">
+    <option value="demotbl">Theme 1</option>
+    <option value="demotbl2">Theme 2</option>
+    <option value="demotbl3">Theme 3</option>
+    <option value="demotbl">Default Theme</option>
+    
+</select>
+<button onclick="switchfunction()">Apply Theme</button>
+</div>
+
+<h2 align="center" style="color:crimson">A products with high Grad</h2>
+<table align="center" class="demotbl" id="switchtable">
+  <tr>
+      <th>Product ID</th>
+      <th>Product Name</th>
+      <th>Product Quality</th>
+      <th>Product Quantity</th>
+  </tr>
+  <tr>
+      <td>1</td>
+      <td>Sunglasses</td>
+      <td>Good</td>
+      <td>200/-</td>
+  </tr>
+  <tr>
+      <td>2</td>
+      <td>WinterWear</td>
+      <td>Good</td>
+      <td>1900/-</td>
+  <tr>
+      <td>3</td>
+      <td>Top Dress</td>
+      <td>Good</td>
+      <td>upto 4000/-</td>
+  </tr>  
+  <tr>
+    <td>4</td>
+    <td>Men's wear</td>
+    <td>Good</td>
+    <td>5000/-</td>
+</tr>
+<tr>
+    <td>5</td>
+    <td>Rings</td>
+    <td>Good</td>
+    <td>400/-</td>
+</tr>
+<tr>
+    <td>6</td>
+    <td>Body products</td>
+    <td>Good</td>
+    <td>6000/-</td>
+</tr>
+<tr>
+    <td>7</td>
+    <td>face Creams</td>
+    <td>Good</td>
+    <td>2000/-</td>
+</tr>
+</table>
+</body>
+</html>
+
+

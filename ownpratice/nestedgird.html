@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HOME PAGE</title>
+
+    <!--BOOTSTRAP CSS LOCAL -->
+    <link rel="stylesheet" href="../ownpratice/strap.css" />
+    <!--BOOTSTRAP CSS LOCAL -->
+
+
+    <!--BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="../ownpratice/bootstrap.css/bootstrap-icons.css" />
+    <!--BOOTSTRAP ICONS -->
+    
+    <!--CUSTOM CSS-STYLE-->
+    <link rel="stylesheet" href="../ownpratice/multi.css" />
+    <!--CUSTOM CSS-STYLE-->
+
+
+    <!--BOOTSTRAP JAVASCRIPT-->
+    <script src="../ownpratice/bootstrap.js/"></script>
+    <!--BOOTSTRAP JAVASCRIPT-->
+
+
+
+</head>
+
+<body>
+
+
+    <!--NAVBAR SECTION-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+
+        <div class="container-fluid">
+
+
+            <!--LOGO/LOGO TEXT ON MENU-->
+            <a href="#" class="navbar-brand px-5">
+                LOGO / LOGO TEXT
+            </a>
+            <!--LOGO/LOGO TEXT ON MENU-->
+
+
+            <!--Button for Handle Menu with Show/Hide in Mobile Responsive-->
+            <a class="navbar-toggler" type="button" data-bs-toggle="collapse" href="#menu_list">
+                <span class="navbar-toggler-icon"></span>
+            </a>
+            <!--Button for Handle Menu with Show/Hide in Mobile Responsive-->
+
+            <!--
+                collpase-> Hide The element
+                [Ex: navbar-collapse ]
+
+                toggle->  hide to show element / show to Hide element
+                [Ex: data-bs-toggle="component"]   
+                
+                target-> Target Destination Element by id_address
+                [data-bs-target="#address" / href="#address"]
+            -->
+
+
+            <!--Menu List Items -->
+            <div class="collapse navbar-collapse justify-content-end" id="menu_list">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#dropdownMenuLink">
+                            Services</a>
+                        <!--NESTED LIST-->
+
+                        <ul class="dropdown-menu" id="dropdownMenuLink">
+                            <li><a href="data-science.html" class="dropdown-item">Data Science</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a href="mobile-apps.html" class="dropdown-item">Mobile Apps</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a href="" class="dropdown-item">Web Application</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a href="" class="dropdown-item">Analytics</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a href="" class="dropdown-item">A.I</a></li>
+                        </ul>
+
+                        <!--NESTED LIST-->
+
+
+                    </li>
+
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="clients.html">Clients</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="advertise.html">Advertise</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Menu List Items -->
+
+        </div>
+
+    </nav>
+    <!--NAVBAR SECTION-->
+
+    <!--MAIN CONTENT SECTION-->
+    <main class="container-fluid index">
+
+        <div class="row">
+
+            <!--LEFT SIDE COLUMN IN MAIN GRID-->
+            <div class="col-lg-2">
+
+                <!--LIST GROUP-->
+                <nav>
+                    <ul class="list-group">
+                        <li class="list-group-item"><i class="bi bi-arrow-right-circle-fill"></i> All
+                            Offers</li>
+                        <li class="list-group-item"><i class="bi bi-arrow-right-circle-fill"></i> Mobiles &
+                            Tablets</li>
+                        <li class="list-group-item"><i class="bi bi-arrow-right-circle-fill"></i> Electronics</li>
+                        <li class="list-group-item"><i class="bi bi-arrow-right-circle-fill"></i> Computers</li>
+                        <li class="list-group-item"><i class="bi bi-arrow-right-circle-fill"></i> Sports Items</li>
+                        <li class="list-group-item"><i class="bi bi-arrow-right-circle-fill"></i> Men's Fashions</li>
+                        <li class="list-group-item"><i class="bi bi-arrow-right-circle-fill"></i> Kids's Toys</li>
+                        <li class="list-group-item"><i class="bi bi-arrow-right-circle-fill"></i> All Offers</li>
+                        <li class="list-group-item"><i class="bi bi-arrow-right-circle-fill"></i> Mobiles & Tablets</li>
+                        <li class="list-group-item"><i class="bi bi-arrow-right-circle-fill"></i> Electronics</li>
+                        <li class="list-group-item"><i class="bi bi-arrow-right-circle-fill"></i> Computers</li>
+                        <li class="list-group-item"><i class="bi bi-arrow-right-circle-fill"></i> Sports Items</li>
+                        <li class="list-group-item"><i class="bi bi-arrow-right-circle-fill"></i> Men's Fashions</li>
+                        <li class="list-group-item"><i class="bi bi-arrow-right-circle-fill"></i> Kids's Toys</li>
+                    </ul>
+                </nav>
+
+                <!--LIST GROUP-->
+
+                <!--accordion-->
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                RAM
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        6 GB & Above
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        4 GB
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        3 GB
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        2 GB
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        1 GB
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                BRAND
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        6 GB & Above
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        4 GB
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        3 GB
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        2 GB
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        1 GB
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false">
+                                STORAGE
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        6 GB & Above
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        4 GB
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        3 GB
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        2 GB
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        1 GB
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--accordion-->
+
+
+
+
+            </div>
+            <!--LEFT SIDE COLUMN IN MAIN GRID-->
+
+
+
+            <!--RIGHT SIDE COLUMN IN MAIN GRID-->
+            <div class="col-lg-10">
+
+                <!--IMAGE SLIDER-->
+                <div id="productSlider" class="carousel slide carousel-fade mb-2" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item  active" data-bs-interval="1000">
+                            <img src="pics/Female-Fashion-Designer-Mesurements-Denim-Jacket.jpg" class="d-block w-100" />
+                            <!--
+                                <iframe src="" frameborder="0"></iframe>
+                                <video src=""></video>
+
+                                <div class="row">
+                                        ........columns 
+                                    </div>
+
+                            -->
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="pics/images.png" class="d-block w-100" />
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="pics/51op09RVX1L._UL1000_.jpg" class="d-block w-100" />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" type="button" href="#productSlider" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" type="button" href="#productSlider" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+                <!--IMAGE SLIDER-->
+
+
+                <!--ContainerFluid-->
+                <div class="container-fluid bg-dark">
+
+                    <!--ROW-->
+                    <div class="row">
+
+                        <!--COLUMN-1-->
+                        <div class="col-lg-3 col-12 col-md-3 col-sm-6">
+
+                            <!--CARD DATA IN COLUMN-->
+                            <figure class="card">
+                                <img src="pics/dri-fit-mens-lacrosse-t-shirt-v1cpb4.jpg" class="card-img-top w-40 h-200 mx-auto my-3">
+                                <div class="card-body text-white text-center">
+                                    <h3 class="card-title h5 text-uppercase">Portugal 2020 Stadium Home</h3>
+
+                                    <div class="progress my-2">
+                                        <div class="progress-bar bg-info w-25">25%</div>
+                                    </div>
+
+                                    <p class="card-text">
+                                        Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories
+                                    </p>
+
+
+
+                                    <a href="#" class="btn btn-primary">Buy Now
+                                        <i class="bi bi-heart-fill text-danger"></i>
+                                    </a>
+                                </div>
+                            </figure>
+                            <!--CARD DATA IN COLUMN-->
+
+                        </div>
+                        <!--COLUMN-1-->
+
+
+                        <!--COLUMN-2-->
+                        <div class="col-lg-3 col-12 col-md-3 col-sm-6">
+
+                            <!--CARD DATA IN COLUMN-->
+                            <figure class="card">
+                                <img src="pics/dri-fit-mens-lacrosse-t-shirt-v1cpb4.jpg" class="card-img-top w-40 h-200 mx-auto my-3">
+                                <div class="card-body text-white text-center">
+                                    <h3 class="card-title h5 text-uppercase">Portugal 2020 Stadium Home</h3>
+                                    <div class="progress my-2">
+                                        <div class="progress-bar bg-info w-75">75%</div>
+                                    </div>
+                                    <p class="card-text">
+                                        Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Buy Now
+                                        <i class="bi bi-heart-fill text-danger"></i>
+                                    </a>
+                                </div>
+                            </figure>
+                            <!--CARD DATA IN COLUMN-->
+
+                        </div>
+                        <!--COLUMN-2-->
+
+
+                        <!--COLUMN-3-->
+                        <div class="col-lg-3 col-12 col-md-3 col-sm-6">
+
+                            <!--CARD DATA IN COLUMN-->
+                            <figure class="card">
+                                <img src="pics/dri-fit-mens-lacrosse-t-shirt-v1cpb4.jpg" class="card-img-top w-40 h-200 mx-auto my-3">
+                                <div class="card-body text-white text-center">
+                                    <h3 class="card-title h5 text-uppercase">Portugal 2020 Stadium Home</h3>
+                                    <div class="progress my-2">
+                                        <div class="progress-bar bg-info " style="width:90%">90%</div>
+                                    </div>
+                                    <p class="card-text">
+                                        Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Buy Now
+                                        <i class="bi bi-heart-fill text-danger"></i>
+                                    </a>
+                                </div>
+                            </figure>
+                            <!--CARD DATA IN COLUMN-->
+
+                        </div>
+                        <!--COLUMN-3-->
+
+
+                        <!--COLUMN-4-->
+                        <div class="col-lg-3 col-12 col-md-3 col-sm-6">
+
+                            <!--CARD DATA IN COLUMN-->
+                            <figure class="card">
+                                <img src="pics/dri-fit-mens-lacrosse-t-shirt-v1cpb4.jpg" class="card-img-top w-40 h-200 mx-auto my-3">
+                                <div class="card-body text-white text-center">
+                                    <h3 class="card-title h5 text-uppercase">Portugal 2020 Stadium Home</h3>
+                                    <div class="progress my-2">
+                                        <div class="progress-bar bg-info w-25">50%</div>
+                                    </div>
+
+                                    <p class="card-text">
+                                        Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Buy Now
+                                        <i class="bi bi-heart-fill text-danger"></i>
+                                    </a>
+                                </div>
+                            </figure>
+                            <!--CARD DATA IN COLUMN-->
+
+                        </div>
+                        <!--COLUMN-4-->
+
+                        <!--COLUMN-1-->
+                        <div class="col-lg-3 col-12 col-md-3 col-sm-6">
+
+                            <!--CARD DATA IN COLUMN-->
+                            <figure class="card">
+                                <img src="pics/dri-fit-mens-lacrosse-t-shirt-v1cpb4.jpg" class="card-img-top w-40 h-200 mx-auto my-3">
+                                <div class="card-body text-white text-center">
+                                    <h3 class="card-title h5 text-uppercase">Portugal 2020 Stadium Home</h3>
+                                    <div class="progress my-2">
+                                        <div class="progress-bar bg-info w-25">25%</div>
+                                    </div>
+
+                                    <p class="card-text">
+                                        Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Buy Now
+                                        <i class="bi bi-heart-fill text-danger"></i>
+                                    </a>
+                                </div>
+                            </figure>
+                            <!--CARD DATA IN COLUMN-->
+
+                        </div>
+                        <!--COLUMN-1-->
+
+
+                        <!--COLUMN-2-->
+                        <div class="col-lg-3 col-12 col-md-3 col-sm-6">
+
+                            <!--CARD DATA IN COLUMN-->
+                            <figure class="card">
+                                <img src="pics/dri-fit-mens-lacrosse-t-shirt-v1cpb4.jpg" class="card-img-top w-40 h-200 mx-auto my-3">
+                                <div class="card-body text-white text-center">
+                                    <h3 class="card-title h5 text-uppercase">Portugal 2020 Stadium Home</h3>
+                                    
+                                    <div class="progress my-2">
+                                        <div class="progress-bar bg-info w-25">25%</div>
+                                    </div>
+<p class="card-text">
+                                        Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Buy Now
+                                        <i class="bi bi-heart-fill text-danger"></i>
+                                    </a>
+                                </div>
+                            </figure>
+                            <!--CARD DATA IN COLUMN-->
+
+                        </div>
+                        <!--COLUMN-2-->
+
+
+                        <!--COLUMN-3-->
+                        <div class="col-lg-3 col-12 col-md-3 col-sm-6">
+
+                            <!--CARD DATA IN COLUMN-->
+                            <figure class="card">
+                                <img src="pics/dri-fit-mens-lacrosse-t-shirt-v1cpb4.jpg" class="card-img-top w-40 h-200 mx-auto my-3">
+                                <div class="card-body text-white text-center">
+                                    <h3 class="card-title h5 text-uppercase">Portugal 2020 Stadium Home</h3>
+                                    <div class="progress my-2">
+                                        <div class="progress-bar bg-info w-25">25%</div>
+                                    </div>
+
+                                    <p class="card-text">
+                                        Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Buy Now
+                                        <i class="bi bi-heart-fill text-danger"></i>
+                                    </a>
+                                </div>
+                            </figure>
+                            <!--CARD DATA IN COLUMN-->
+
+                        </div>
+                        <!--COLUMN-3-->
+
+
+                        <!--COLUMN-4-->
+                        <div class="col-lg-3 col-12 col-md-3 col-sm-6">
+
+                            <!--CARD DATA IN COLUMN-->
+                            <figure class="card">
+                                <img src="pics/dri-fit-mens-lacrosse-t-shirt-v1cpb4.jpg" class="card-img-top w-40 h-200 mx-auto my-3">
+                                <div class="card-body text-white text-center">
+                                    <h3 class="card-title h5 text-uppercase">Portugal 2020 Stadium Home</h3>
+                                    <div class="progress my-2">
+                                        <div class="progress-bar bg-info w-25">25%</div>
+                                    </div>
+
+                                    <p class="card-text">
+                                        Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Buy Now
+                                        <i class="bi bi-heart-fill text-danger"></i>
+                                    </a>
+                                </div>
+                            </figure>
+                            <!--CARD DATA IN COLUMN-->
+
+                        </div>
+                        <!--COLUMN-4-->
+
+                        <!--COLUMN-1-->
+                        <div class="col-lg-3 col-12 col-md-3 col-sm-6">
+
+                            <!--CARD DATA IN COLUMN-->
+                            <figure class="card">
+                                <img src="pics/dri-fit-mens-lacrosse-t-shirt-v1cpb4.jpg" class="card-img-top w-40 h-200 mx-auto my-3">
+                                <div class="card-body text-white text-center">
+                                    <h3 class="card-title h5 text-uppercase">Portugal 2020 Stadium Home</h3>
+                                    <div class="progress my-2">
+                                        <div class="progress-bar bg-info w-25">25%</div>
+                                    </div>
+
+                                    <p class="card-text">
+                                        Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Buy Now
+                                        <i class="bi bi-heart-fill text-danger"></i>
+                                    </a>
+                                </div>
+                            </figure>
+                            <!--CARD DATA IN COLUMN-->
+
+                        </div>
+                        <!--COLUMN-1-->
+
+
+                        <!--COLUMN-2-->
+                        <div class="col-lg-3 col-12 col-md-3 col-sm-6">
+
+                            <!--CARD DATA IN COLUMN-->
+                            <figure class="card">
+                                <img src="pics/dri-fit-mens-lacrosse-t-shirt-v1cpb4.jpg" class="card-img-top w-40 h-200 mx-auto my-3">
+                                <div class="card-body text-white text-center">
+                                    <h3 class="card-title h5 text-uppercase">Portugal 2020 Stadium Home</h3>
+                                    <div class="progress my-2">
+                                        <div class="progress-bar bg-info w-25">25%</div>
+                                    </div>
+
+                                    <p class="card-text">
+                                        Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Buy Now
+                                        <i class="bi bi-heart-fill text-danger"></i>
+                                    </a>
+                                </div>
+                            </figure>
+                            <!--CARD DATA IN COLUMN-->
+
+                        </div>
+                        <!--COLUMN-2-->
+
+
+                        <!--COLUMN-3-->
+                        <div class="col-lg-3 col-12 col-md-3 col-sm-6">
+
+                            <!--CARD DATA IN COLUMN-->
+                            <figure class="card">
+                                <img src="pics/dri-fit-mens-lacrosse-t-shirt-v1cpb4.jpg" class="card-img-top w-40 h-200 mx-auto my-3">
+                                <div class="card-body text-white text-center">
+                                    <h3 class="card-title h5 text-uppercase">Portugal 2020 Stadium Home</h3>
+                                    <div class="progress my-2">
+                                        <div class="progress-bar bg-info w-25">25%</div>
+                                    </div>
+
+                                    <p class="card-text">
+                                        Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Buy Now
+                                        <i class="bi bi-heart-fill text-danger"></i>
+                                    </a>
+                                </div>
+                            </figure>
+                            <!--CARD DATA IN COLUMN-->
+
+                        </div>
+                        <!--COLUMN-3-->
+
+
+                        <!--COLUMN-4-->
+                        <div class="col-lg-3 col-12 col-md-3 col-sm-6">
+
+                            <!--CARD DATA IN COLUMN-->
+                            <figure class="card">
+                                <img src="pics/dri-fit-mens-lacrosse-t-shirt-v1cpb4.jpg" class="card-img-top w-40 h-200 mx-auto my-3">
+                                <div class="card-body text-white text-center">
+                                    <h3 class="card-title h5 text-uppercase">Portugal 2020 Stadium Home</h3>
+                                    <div class="progress my-2">
+                                        <div class="progress-bar bg-info w-25">25%</div>
+                                    </div>
+
+                                    <p class="card-text">
+                                        Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Buy Now
+                                        <i class="bi bi-heart-fill text-danger"></i>
+                                    </a>
+                                </div>
+                            </figure>
+                            <!--CARD DATA IN COLUMN-->
+
+                        </div>
+                        <!--COLUMN-4-->
+
+
+
+                    </div>
+                    <!--ROW-->
+
+
+                    <!--PAGINATION-->
+
+                    <nav>
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item"><a href="#" class="page-link">1</a></li>
+                            <li class="page-item"><a href="#" class="page-link">2</a></li>
+                            <li class="page-item"><a href="#" class="page-link">3</a></li>
+                            <li class="page-item"><a href="#" class="page-link">4</a></li>
+                            <li class="page-item"><a href="#" class="page-link">5</a></li>
+                            <li class="page-item"><a href="#" class="page-link">6</a></li>
+                            <li class="page-item"><a href="#" class="page-link">7</a></li>
+                            <li class="page-item"><a href="#" class="page-link">8</a></li>
+                            <li class="page-item"><a href="#" class="page-link">9</a></li>
+                            <li class="page-item"><a href="#" class="page-link">10</a></li>
+                        </ul>
+                    </nav>
+
+                    <!--PAGINATION-->
+
+                </div>
+                <!--ContainerFluid-->
+
+
+
+            </div>
+            <!--RIGHT SIDE COLUMN IN MAIN GRID-->
+
+        </div>
+    </main>
+    <!--MAIN CONTENT SECTION-->
+
+
+    <!--FOOTER SECTION-->
+
+    <footer class="footer">
+        <div class="container bottom_border">
+            <div class="row">
+                <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+                    <!--headin5_amrc-->
+                    <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    <p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 rohini 35 </p>
+                    <p><i class="fa fa-phone"></i> +91-9999878398 </p>
+                    <p><i class="fa fa fa-envelope"></i> info@example.com </p>
+
+
+                </div>
+
+
+                <div class=" col-sm-4 col-md  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+                    <!--headin5_amrc-->
+                    <ul class="footer_ul_amrc">
+                        <li><a href="http://webenlance.com">Image Rectoucing</a></li>
+                        <li><a href="http://webenlance.com">Clipping Path</a></li>
+                        <li><a href="http://webenlance.com">Hollow Man Montage</a></li>
+                        <li><a href="http://webenlance.com">Ebay & Amazon</a></li>
+                        <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+                        <li><a href="http://webenlance.com">Image Cropping</a></li>
+                    </ul>
+                    <!--footer_ul_amrc ends here-->
+                </div>
+
+
+                <div class=" col-sm-4 col-md  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+                    <!--headin5_amrc-->
+                    <ul class="footer_ul_amrc">
+                        <li><a href="http://webenlance.com">Remove Background</a></li>
+                        <li><a href="http://webenlance.com">Shadows & Mirror Reflection</a></li>
+                        <li><a href="http://webenlance.com">Logo Design</a></li>
+                        <li><a href="http://webenlance.com">Vectorization</a></li>
+                        <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+                        <li><a href="http://webenlance.com">Image Cropping</a></li>
+                    </ul>
+                    <!--footer_ul_amrc ends here-->
+                </div>
+
+
+                <div class=" col-sm-4 col-md  col-12 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+                    <!--headin5_amrc ends here-->
+
+                    <ul class="footer_ul2_amrc">
+                        <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+                            <p>Lorem Ipsum is simply dummy text of the printing...<a
+                                    href="#">https://www.lipsum.com/</a></p>
+                        </li>
+                        <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+                            <p>Lorem Ipsum is simply dummy text of the printing...<a
+                                    href="#">https://www.lipsum.com/</a></p>
+                        </li>
+                        <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+                            <p>Lorem Ipsum is simply dummy text of the printing...<a
+                                    href="#">https://www.lipsum.com/</a></p>
+                        </li>
+                    </ul>
+                    <!--footer_ul2_amrc ends here-->
+                </div>
+            </div>
+        </div>
+
+
+        
+
+    </footer>
+    <!--FOOTER SECTION-->
+
+
+</body>
+
+</html>
